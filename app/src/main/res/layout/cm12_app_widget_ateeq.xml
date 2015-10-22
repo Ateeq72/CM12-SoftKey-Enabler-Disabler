@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="@dimen/widget_margin" android:background="#8c000001"
+    android:id="@+id/SS">
+
+
+                <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+                    android:text="  CM12 SoftKey\n Enable/Disabler"
+                    android:textColor="#fcffffff"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignEnd="@+id/ewbutton" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enable"
+        android:id="@+id/ewbutton"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disable"
+        android:id="@+id/dwbutton"
+        android:layout_below="@+id/ewbutton"
+        android:layout_alignEnd="@+id/ewbutton" />
+
+</RelativeLayout>
